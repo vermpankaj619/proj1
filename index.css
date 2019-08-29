@@ -1,0 +1,10 @@
+body{
+    background-color: grey
+}
+.card {
+    color:red
+}
+
+.card div:nth-child(1){
+    color:blue
+}
