@@ -2,9 +2,13 @@ body{
     background-color: grey
 }
 .card {
-    color:red
+    color:red;
+    padding:20px;
+    display:grid;
+    grid-template-columns: 30% 50% 20%
 }
 
-.card div:nth-child(1){
-    color:blue
+.card div:nth-child(even){
+    color:blue;
+    background-color: green;
 }
